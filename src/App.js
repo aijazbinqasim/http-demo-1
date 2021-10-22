@@ -1,10 +1,13 @@
+import { BrowserRouter as Router } from 'react-router-dom';
 import Blog from './containers/Blog/Blog';
 
 function App() {
   return (
-    <div>
-      <Blog />
-    </div>
+    <Router>
+      <div>
+        <Blog />
+      </div>
+    </Router>
   );
 }
 
