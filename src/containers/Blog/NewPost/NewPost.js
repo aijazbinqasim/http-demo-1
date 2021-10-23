@@ -8,7 +8,7 @@ class NewPost extends Component {
         body: '',
         author: 'Aijaz Ali'
     }
-
+    
     postDataHandler = () => {
         axios.post("/posts", {
             title: this.state.title,
